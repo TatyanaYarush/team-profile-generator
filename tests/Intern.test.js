@@ -17,3 +17,12 @@ test("Test to get school via getSchool()", () => {
     const testEmployee = new Intern("Tanya", 123, "test@gmail.com", testschool);
     expect(testEmployee.getSchool()).toBe(testschool);
 });
+
+test("Test to create an Intern Object with all the parameters", () => {
+    const x = new Intern("tat7res5", 715, "test3@tanya.com", "Tatnya7Git");
+    expect(typeof(x.name)).toBe("string");
+    expect(typeof(x.id)).toBe("number");
+    expect(typeof(x.email)).toBe("string");
+    expect(typeof(x.school)).toBe("string");
+});
+

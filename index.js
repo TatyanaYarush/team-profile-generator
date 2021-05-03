@@ -56,9 +56,8 @@ const promptEmp = () => {
             {
               type: "confirm",
               name: "anotherEntry",
-              message: log.green( "Would you like to add another employee?"),//  color issue????
-              choices:['Yes', 'No'],
-            //   default: false,
+              message:"Would you like to add another employee?",
+              default: false,
             },
           ])
           .then(({ office, anotherEntry }) => {
@@ -81,8 +80,8 @@ const promptEmp = () => {
               name: "anotherEntry",
               message: "Would you like to add another employee?",
             
-              choices: ['Yes', 'No'],
-            //   default: false,
+            
+              default: false,
             },
           ])
           .then(({ github, anotherEntry }) => {
@@ -104,8 +103,8 @@ const promptEmp = () => {
               type: "confirm",
               name: "anotherEntry",
               message: "Would you like to add another employee?",
-              choices: ['Yes', 'No'],
-            //   default: false,
+            
+              default: false,
             },
           ])
           .then(({ school, anotherEntry }) => {
@@ -119,12 +118,10 @@ const promptEmp = () => {
     });
 };
 
-
-
 const writeFile = fileContent => {
   return new Promise((resolve, reject) => {
       fs.writeFile('./dist/index.html', fileContent, err => 
-      err ? console.log(err) : console.log('Successfully created index.html!')
+      err ? console.log(err) : log.magenta('Successfully created index.html!')
       );
   });
 };

@@ -18,7 +18,6 @@ const generateCards = (teamData) => {
 </div>
 `;
   });
-  
 
   const engineer = teamData.engineer.map(function (answers) {
     return `
@@ -57,7 +56,8 @@ const generateCards = (teamData) => {
 </div>
 `;
   });
-  return [manager, engineer, intern];
+  const employees = [manager, engineer, intern];
+  return employees.join("");
 };
 
 module.exports = (templateData) => {
@@ -77,13 +77,22 @@ module.exports = (templateData) => {
         <title>Team Profile Generator</title>
         <style>
             body {
+                background-color: rgb(232, 241, 248);
                 margin-bottom: 5em;
             }
     
             .card {
                 margin-bottom: 5em;
                 
+
+                box-shadow: 2px 2px 4px #635e5e;
+                
             } 
+
+            h1,h2,h3 {
+                text-shadow: 4px 4px 6px #4b5063;
+               
+            }
 
 
         </style> 

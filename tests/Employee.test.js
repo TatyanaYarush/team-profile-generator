@@ -25,21 +25,3 @@ test("Test to use role function", () => {
     expect(testEmployee.getRole()).toBe("Employee")
 })
 
-// Exception test
-// test("Test to use name function", () => {
-//     const testEmployee = new Employee("Tanya");
-//     expect(testEmployee.getName()).toBe("Tanya")
-
-    
-// it("should throw an error if not provided a 'text' value", () => {
-//     // Arrange
-//     const testEmployee = () => new Employee();
-//     const err = new Error(
-//       "Expected parameter 'text' to be a non empty string"
-//     );
-
-//     // Assert
-//     expect(testEmployee).toThrowError(err);
-//     })
-
-// })
