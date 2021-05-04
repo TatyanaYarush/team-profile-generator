@@ -7,7 +7,7 @@ const generateCards = (teamData) => {
         <div class="card-header text-center bg-success text-white ">
        
             <h2>${answers.name}</h2>
-            <h3><i class="fas fa-mug-hot"></i>Manager</h3>
+            <h3><i class="fas fa-mug-hot"></i> Manager</h3>
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${answers.id}</li>
@@ -31,7 +31,7 @@ const generateCards = (teamData) => {
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${answers.id}</li>
             <li class="list-group-item">Email: <a href="mailto:${answers.email} "target="_blank">${answers.email}</a></li>
-            <li class="list-group-item">GitHub: <a href="https://github.com/${answers.github}"target="_blank">${answers.github}"></a></li>
+            <li class="list-group-item">GitHub: <a href="https://github.com/${answers.github} "target="_blank">${answers.github}</a></li>
         </ul>
     </div>
 </div>
@@ -45,7 +45,7 @@ const generateCards = (teamData) => {
    
         <div class="card-header text-center bg-success text-white">
             <h2>${answers.name}</h2>
-            <h3><i class="fas fa-user-graduate"></i>Intern</h3>
+            <h3><i class="fas fa-user-graduate"></i> Intern</h3>
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${answers.id}</li>
@@ -83,20 +83,13 @@ module.exports = (templateData) => {
     
             .card {
                 margin-bottom: 5em;
-                
-
                 box-shadow: 2px 2px 4px #635e5e;
-                
             } 
 
             h1,h2,h3 {
                 text-shadow: 4px 4px 6px #4b5063;
-               
             }
-
-
         </style> 
-    
     </head>
     
     <body>

@@ -12,7 +12,6 @@ const log = new Logger();
 
 const generatePage = require("./src/template-index")
 
-// let employees = []; 
 let manager = [];
 let engineer = [];
 let intern = [];
