@@ -61,7 +61,7 @@ const promptEmp = () => {
           ])
           .then(({ office, anotherEntry }) => {
             manager.push(new Manager(employee, id, email, office));
-            console.log(employeeArr);
+            // console.log(employeeArr);
             if (anotherEntry) {
               return promptEmp();
             }
