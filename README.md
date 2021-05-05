@@ -55,6 +55,7 @@ To install this application, first, branch the Github Repo and clone the repo to
 
 ![](readme_assets/Demo.gif)
 
+ - YouTube Video: [Walkthrough DemoVideo](https://www.youtube.com/watch?v=vzHBk1cwQl0)
 
 
 ## Webpage image: 
