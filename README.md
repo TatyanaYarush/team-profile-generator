@@ -1,6 +1,7 @@
 # team-profile-generator
 10 Object-Oriented Programming: Team Profile Generator
 
+(file:///C:/Users/Muvil/Desktop/PREWORK_TY/Team%20Profile%20Generator/team-profile-generator/dist/index.html)
 (https://tatyanayarush.github.io/team-profile-generator/)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/TatyanaYarush/team-profile-generator?color=green&logo=Javascript&logoColor=yellow)
