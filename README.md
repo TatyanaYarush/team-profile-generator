@@ -1,10 +1,11 @@
 # team-profile-generator
 10 Object-Oriented Programming: Team Profile Generator
 
+(https://tatyanayarush.github.io/team-profile-generator/)
+
 ![GitHub top language](https://img.shields.io/github/languages/top/TatyanaYarush/team-profile-generator?color=green&logo=Javascript&logoColor=yellow)
 ![GitHub language count](https://img.shields.io/github/languages/count/TatyanaYarush/team-profile-generator?logo=Lanquages)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TatyanaYarush/team-profile-generator?color=orange&label=HTML&logo=HTML&logoColor=orange)
-
 
 
 ## Introduction
